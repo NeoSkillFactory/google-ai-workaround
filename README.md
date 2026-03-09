@@ -2,20 +2,29 @@
 
 ![Audit](https://img.shields.io/badge/audit%3A%20PASS-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-orange)
 
-> A skill that addresses the community need: Google restricting Google AI Pro/Ultra subscribers for using OpenClaw
+> Automates Google AI Pro/Ultra access management through proxy and session strategies for OpenClaw agents.
 
-I don't see any previous context or work in this session. Could you tell me what task you were working on or what you'd like me to continue with?
+## Features
 
-## OpenClaw Marketplace
+- Detects Google AI service restrictions by analyzing HTTP response patterns
+- Manages proxy configurations with round-robin, least-used, and random rotation strategies
+- Provides a CLI interface for manual testing and configuration verification
+- Integrates with OpenClaw agent workflows for seamless automation
+- Monitors access patterns and identifies rate limiting
+- Handles authentication token refresh and session persistence
+- Generates detailed logs and error reports for troubleshooting
 
-This skill is available on [ClawHub](https://clawhub.ai) — the OpenClaw skill marketplace.
-Install it in any OpenClaw agent workspace with:
+## Configuration
 
-```bash
-clawhub install google-ai-workaround
-```
+- `--config <path>` - Path to config file (default: `assets/config-template.json`)
+- `--silent` - Suppress log output
+- `--log-file <path>` - Write logs to a file
 
-**Recommended price when commercial:** $19.99 USD
+## GitHub
+
+Source code: [github.com/NeoSkillFactory/google-ai-workaround](https://github.com/NeoSkillFactory/google-ai-workaround)
+
+**Price suggestion:** $19.99 USD
 
 ## License
 
