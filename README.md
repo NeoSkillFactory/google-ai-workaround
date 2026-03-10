@@ -24,8 +24,6 @@
 
 Source code: [github.com/NeoSkillFactory/google-ai-workaround](https://github.com/NeoSkillFactory/google-ai-workaround)
 
-**Price suggestion:** $19.99 USD
-
 ## License
 
 MIT © NeoSkillFactory
