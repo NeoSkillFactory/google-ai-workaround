@@ -1,0 +1,4 @@
+assets/.sessions/
+assets/.sessions-test/
+node_modules/
+*.log
